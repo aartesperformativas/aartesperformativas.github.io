@@ -204,6 +204,11 @@
     margin-top: 20px;
   margin-left: 0px!important;
 }
+  .close{
+    position: fixed;
+    overflow: hidden;
+    z-index: 10;
+  }
 
 }
 
