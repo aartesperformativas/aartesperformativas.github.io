@@ -3,12 +3,16 @@
 	width: 100%;
 	height: 300px;
 	background-color: #000;
+	margin-bottom: 5em;
+
 }
 
-.header-page h2{
+.header-title{
+	font-family:'chevinextrabold';
 	color: #fff;
 	text-align: center;
 	padding-top: 4.3em;
+	font-size: 32px;
 }
 
 
@@ -31,7 +35,8 @@
 }
 
 .edicoes{
-	padding: 5em 0px;
+	padding: 3em 0px;
+	padding-bottom: 6em;
 }
 
 .edicoes figure{
@@ -63,13 +68,20 @@
 	background-size: cover;
 }
 
+.cd-video{
+	margin: 4em 0px;
+}
 
+.projeto-14{
+	margin: 20px 10px;
+	border-bottom: 2px solid #000;
+}
 
 
 /* IMPRENSA */
 
 .imprensa-item{
-	border:3px solid #fff100;
+	border:3px solid #000;
 	color: #000;
 	text-align: center;
 	padding: 1.5em;
@@ -80,16 +92,22 @@
 }
 
 .imprensa-item:hover{
-	background-color: #fff100;
+	background-color: #000;
+	color: #fff;
+
 }
 
 .imprensa-item p{
 	font-weight: 500;
+	text-align: center;
 }
 
 
 /* EDIÇÃO */
 
+.edicao img{
+	width: 100%;
+}
 
 
 .sobre-edicao p{
@@ -123,22 +141,26 @@
   padding:2px 8px;
 }
 
-
 .embed-container iframe, .embed-container object{
 	margin-top: 4em;
 }
 
+#projetos-2014{
+	min-height: 100%;
+}
 
 
 @media only screen and (max-width: 768px) {
+
+
 
 	.header-page{
 		height: 180px;
 	}
 
-	.header-page h2{
-		padding-top: 2.5em;
-	}
+	.header-title{
+	padding-top: 2.6em;
+}
 
 	.intro-edicoes{
 		width: 100%;

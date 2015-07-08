@@ -29,5 +29,18 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    z-index: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel,
+    .item,
+    .active{
+        height: 260px;
+    }
+
+    .carousel-inner{
+        height: 100%;
+    }
+
+    
 }
