@@ -31,16 +31,3 @@ body {
     -o-background-size: cover;
 }
 
-@media (max-width: 768px) {
-    .carousel,
-    .item,
-    .active{
-        height: 260px;
-    }
-
-    .carousel-inner{
-        height: 100%;
-    }
-
-    
-}
