@@ -31,7 +31,7 @@ body {
     -o-background-size: cover;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .carousel,
     .item,
     .active{
