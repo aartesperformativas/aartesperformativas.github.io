@@ -4,8 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-html,
-body {
+ html,
+ body {
     height: 100%;
 }
 
@@ -31,3 +31,28 @@ body {
     -o-background-size: cover;
 }
 
+@media (max-width: 768px) {
+    .carousel,
+    .item,
+    .active{
+        height: 400px;
+    }
+
+    .carousel-inner{
+        height: 100%;
+    }
+
+    
+}
+
+
+@media (min-width: @screen-sm-min) { 
+    .carousel,
+    .item,
+    .active {
+        height: 100%;
+    }
+
+    .carousel-inner {
+        height: 100%;
+        } }
