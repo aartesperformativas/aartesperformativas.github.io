@@ -33,8 +33,7 @@
 
 @media (max-width: 768px) {
     .carousel,
-    .item,
-    .active{
+    .item{
         height: 400px;
     }
 
