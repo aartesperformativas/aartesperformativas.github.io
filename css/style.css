@@ -142,11 +142,20 @@ section{
 
 .navbar-default{
   background-color: #000;
+  z-index: 1000;
 }
+
+
+.navbar-default .navbar-nav>li{
+  z-index: 600;
+}
+
+
 
 .navbar-default .navbar-nav>li>a{
   color: rgba(255,255,255,.6);
   font-weight: 300;
+  z-index: 600;
 }
 
 
