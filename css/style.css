@@ -138,57 +138,6 @@ section{
 }
 
 
-/* NAVBAR */
-
-.navbar-default{
-  background-color: #000;
-  z-index: 1000;
-  border:none;
-}
-
-
-.navbar-default .navbar-nav>li{
-  z-index: 600;
-}
-
-
-
-.navbar-default .navbar-nav>li>a{
-  color: rgba(255,255,255,.6);
-  font-weight: 300;
-  z-index: 600;
-}
-
-
-.navbar-default .navbar-nav>li>a:hover{
-  color: #fff;
-
-}
-
-.navbar-default .navbar-nav>li>a:focus{
-  color: #fff;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-  color: #fff;
-  font-weight: 400;
-  background-color: transparent;
-}
-
-.navbar-toggle{
-  border:none;
-}
-
-.navbar-default .navbar-toggle:hover{
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.navbar-default .navbar-toggle .icon-bar{
-  background-color: #fff;
-}
-
-
 
 
 
