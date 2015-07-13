@@ -202,7 +202,7 @@ section{
 @media(max-width:991px) {
 
   .navbar {
-    padding: 0px 0;
+    padding: 10px 0;
     background: #000;
     border:none;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -212,7 +212,6 @@ section{
 
   .top-nav-collapse {
     background-color: #000;
-    padding: 0;
   }
 
 }
