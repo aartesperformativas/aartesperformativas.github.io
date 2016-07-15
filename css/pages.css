@@ -85,29 +85,40 @@
 	border-bottom: 2px solid #000;
 }
 
+.projeto-14 h3{
+	color: #000;
+}
+
+.projeto-14 h4{
+	color: #000;
+}
+
 
 /* IMPRENSA */
 
 .imprensa-item{
-	border:3px solid #000;
-	color: #000;
+	border:4px solid #f47f55;
 	text-align: center;
 	padding: 1.5em;
 	margin: 3em 0px;
 	-webkit-transition: 0.4s;
   	-moz-transition: 0.4s;
   	transition: 0.4s;
+  	border-radius: 5px;
 }
 
 .imprensa-item:hover{
-	background-color: #000;
-	color: #fff;
-
+	background-color: #f47f55;
+	color: white!important;
 }
 
 .imprensa-item p{
 	font-weight: 500;
 	text-align: center;
+}
+
+.imprensa-item h3:hover{
+	color: #fff;
 }
 
 
@@ -156,6 +167,7 @@
 #projetos-2014{
 	min-height: 100%;
 }
+
 
 
 @media only screen and (max-width: 768px) {
