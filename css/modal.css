@@ -89,6 +89,7 @@
   font-size: 1.8em;
   line-height: 2em;
   margin-top: 1em;
+  color: rgb(244,127,85);
 }
 
 .modal-body p{
@@ -101,77 +102,135 @@
   font-weight: 500;
 }
 
-.elsa-modal{
+.ryoko-modal{
   width: 100%;
   height: 300px;
-  background-image: url('../img/img-elsa.jpg');
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-
-.luzana-modal{
-  width: 100%;
-  height: 300px;
-  background-image: url('../img/img-luzana.jpg');
+  background-image: url('../img/projeto-ryoko.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-.rebecca-modal{
+.neumas-modal{
   width: 100%;
   height: 300px;
-  background-image: url('../img/img-rebecca2.jpg');
+  background-image: url('../img/projeto-neumas.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-.david-modal{
+.postcards-modal{
   width: 100%;
   height: 300px;
-  background-image: url('../img/img-david.jpg');
+  background-image: url('../img/projeto-postcards.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.eva-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-eva.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.erika-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-erika.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cuntyplace-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-cuntyplace.jpg');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
 
-.woom-modal{
+.small-modal{
   width: 100%;
   height: 300px;
-  background-image: url('../img/img-woom.jpg');
+  background-image: url('../img/projeto-small.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.kjerstin-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-kjerstin.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.leticia-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-leticia.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.barbaros-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-barbaros.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.marina-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-marina.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.miriam-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-miriam.jpg');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
 
-.miguel-modal{
+.sonia-modal{
   width: 100%;
   height: 300px;
-  background-image: url('../img/img-miguel.jpg');
+  background-image: url('../img/projeto-sonia.jpg');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
 
-.lines-modal{
+.resistance-modal{
   width: 100%;
   height: 300px;
-  background-image: url('../img/img-lines.jpg');
+  background-image: url('../img/projeto-resistance.jpg');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
 
-.vagueante-modal{
-  width: 100%;
-  height: 300px;
-  background-image: url('../img/img-ines.jpg');
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
+
 
 
 .close{

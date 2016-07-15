@@ -1,9 +1,15 @@
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
+    if ($(".navbar").offset().top > 150) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $('.navbar-brand0').hide();
+        $('.navbar-brand').show();
+
+
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $('.navbar-brand0').show();
+        $('.navbar-brand').hide();
     }
 });
 
@@ -16,4 +22,8 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+});
+
+$('.dropdown').hover(function(){ 
+  $('.dropdown-toggle', this).trigger('click'); 
 });
