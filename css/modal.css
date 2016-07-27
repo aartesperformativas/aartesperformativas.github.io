@@ -234,9 +234,58 @@
 .felipe-modal{
   width: 100%;
   height: 300px;
-  background-image: url('../img/projeto-resistance.jpg');
+  background-image: url('../img/projeto-felipe.jpg');
   background-size: cover;
   background-position: top center;
+  background-repeat: no-repeat;
+}
+
+
+
+.ananobre-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-ananobre.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.culturajaponesa-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-culturajaponesa.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+
+.silencioblancoI-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-sliencioblancoI.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.silencioblancoII-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-sliencioblancoII.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.documentario-modal{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/projeto-documentario.jpg');
+  background-size: cover;
+  background-position: bottom center;
   background-repeat: no-repeat;
 }
 
@@ -276,11 +325,11 @@
 
 .d-info-artista a{
   font-weight: 500;
-  color: blue;
+  text-decoration: underline;
 }
 
 .d-info-artista a:hover{
-  text-decoration: underline;
+  color: #f47f55;
 }
 
 .title-info-artista{

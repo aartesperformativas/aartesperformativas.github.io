@@ -105,6 +105,16 @@ section{
   padding: 2em 0em;
 }
 
+.link-comite a{
+  text-decoration: underline;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.link-comite a:hover{
+  color: rgb(244,127,85);
+}
+
 .links{
   margin-top: 2em;
 }
@@ -276,6 +286,10 @@ section{
   .navbar-brand0 img{
     padding: 1em;
     max-width: 120px;
+}
+
+.header1{
+  background-image:url("../img/img-header-mobile.jpg")!important;
 }
 
 }
@@ -598,6 +612,52 @@ figcaption>h3>span{
 }
 
 
+.projeto-ananobre{
+  background-image:url("../img/projeto-ananobre.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.projeto-culturajaponesa{
+  background-image:url("../img/projeto-culturajaponesa.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.projeto-silencioblancoI{
+  background-image:url("../img/projeto-silencioblancoI.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.projeto-silencioblancoII{
+  background-image:url("../img/projeto-silencioblancoII.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.projeto-documentario{
+  background-image:url("../img/projeto-documentario.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.projeto-concertoconversa{
+  background-image:url("../img/projeto-concertoconversa.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.projeto-concertonuno{
+  background-image:url("../img/projeto-concertonuno.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
 
 
 
@@ -764,7 +824,7 @@ footer span{
 .subfooter{
   padding-bottom: 10px;
   background-color: #fff;
-  color: #666;
+  color: #999;
   font-weight: 400;
 }
 
@@ -773,14 +833,13 @@ footer span{
 }
 
 
-
 .subfooter a{
   font-weight: 600;
-  color: #666;
+  color: #999;
 }
 
 .subfooter a:hover{
-  color: #999;
+  color: #ccc;
 }
 
 .ludicus p{
